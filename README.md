@@ -20,10 +20,10 @@ Tiimi tutvustus. Mõtlesime välja mida võiks teha. Valituks sai Kadunud Õppea
 
 
 Ülesanded: <br>
-Thorleif Erik Wiking Larsson hakkas tegelema html-iga <br>
-Rainis Toming tutvub figmaga ja homme teeb koodi<br>
-Kadri Kaljo teeb figmat ja mõtleb ideid<br>
-Hendrik Aksalu dokumenteerib, joonistas tahvli peale plaani, logo<br>
-Kätlin Epelbaum toimetab figmaga<br>
+Thor hakkas tegelema html-iga <br>
+Rainis tutvub figmaga ja homme teeb koodi<br>
+Kadri teeb figmat ja mõtleb ideid<br>
+Hendrik dokumenteerib, joonistas tahvli peale plaani, logo<br>
+Kätlin toimetab figmaga<br>
 
 <h1>Teine päev 02.10.25</h1>
