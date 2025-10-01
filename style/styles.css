@@ -1,0 +1,14 @@
+.person1-info {
+    display: none;
+}
+
+nav {
+    background: antiquewhite;
+    border-bottom: 3px solid black;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
