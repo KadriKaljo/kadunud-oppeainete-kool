@@ -55,8 +55,8 @@ Viimased parandused.
 2. Enda rolliga olin rahul. Plaani panime kiiresti paika. Tiim oli tubli.<br>
 
 <b>Kätlin:</b> <br>
-1. <br>
-2. <br>
+1. Ma õppisin kuidas meeskonnatöös teisi õpetada. <br>
+2. Ma olin enda rolliga rahul, sest mulle meeldib disaini teha. Tiimitöö oli väga hea :)<br>
 
 <h1>Kokkuvõte</h1>
 <p>Meie tiim töötas sujuvalt ja igaühel oli selge roll. Ideed kujunesid kiiresti terviklikuks plaaniks ning valmis sai Kadunud Õppeainete Kooli prototüüp koos kujunduse, tegelaste ja interaktiivse osaga. Kui aega oleks olnud rohkem, oleks saanud detaile veelgi lihvida.</p>
