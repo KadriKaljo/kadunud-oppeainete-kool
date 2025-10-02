@@ -32,3 +32,27 @@ Vaatame kaugele me jõudnud oleme. Täiendame Figmat. Mäng. Mängu testimine. R
 
 ![img_8120_720](https://github.com/user-attachments/assets/b2670aba-5aa0-4379-927a-46e41f7e515d)
 
+<h1>Kolmas päev 08.11.24</h1> <br>
+Viimased parandused.
+<h2>Tagasiside</h2>
+
+<b>Thor:</b><br>
+1. <br>
+2. <br>
+3. <br>
+<b>Rainis: </b><br>
+1. <br>
+2. <br>
+3. <br> 
+<b>Kadri:</b> <br>
+1. <br>
+2. <br>
+3. <br>
+<b>Hendrik:</b> <br>
+1. <br>
+2. <br>
+3. <br>
+<b>Kätlin:</b> <br>
+1. <br>
+2. <br>
+3. <br>
