@@ -14,12 +14,13 @@
     <div class="sections">
         <!-- navigatsioon uudisteni jne siia -->
         <ul class="nav-links">
-            <li class="nav-link"><a href="#">Home</a></li>
-            <li class="nav-link"><a href="#">About</a></li>
-            <li class="nav-link"><a href="#">News</a></li>
-            <li class="nav-link"><a href="#">People</a></li>
-            <li class="nav-link"><a href="#">Map</a></li>
-            <li class="nav-link"><a href="#">Apply</a></li>
+            <li class="nav-link"><a href="#" onclick="app.showSection('all')">Home</a></li>
+            <li class="nav-link"><a href="#" onclick="app.showSection('description')">About</a></li>
+            <li class="nav-link"><a href="#" onclick="app.showSection('news')">News</a></li>
+            <li class="nav-link"><a href="#" onclick="app.showSection('people')">People</a></li>
+            <li class="nav-link"><a href="#" onclick="app.showSection('map')">Map</a></li>
+            <li class="nav-link"><a href="#" onclick="app.showSection('application')">Apply</a></li>
+            <li class="nav-link"><a href="#" onclick="startTextAdventure()">Adventure</a></li>
             <!-- muud navigation lingid siia -->
         </ul>
     </div>
@@ -79,39 +80,41 @@
         <form class="application" onsubmit="app.handleApplication(event)">
             <div class="application">
                 <label>Name</label>
-                <input type="text" class="application" placeholder="Enter your name">
+                <input type="text" name="name" class="application" placeholder="Enter your name" required>
             </div>
             <div class="application">
                 <label>Email</label>
-                <input type="email" class="application" placeholder="Enter your email">
+                <input type="email" name="email" class="application" placeholder="Enter your email" required>
             </div>
             <div class="application">
                 <label>Age</label>
-                <input type="number" class="application" placeholder="Enter your age">
+                <input type="number" name="age" class="application" placeholder="Enter your age" required>
             </div>
             <div class="application">
                 <label>About You</label>
-                <textarea class="application" placeholder="Tell us about you"></textarea>
+                <textarea name="about" class="application" placeholder="Tell us about you" required></textarea>
             </div>
-            <button class="btn btn-primary" onclick="app.loadModal('application-result')">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </section>
 </main>
 
 <!-- modalid mida renderida kindlal ajal -->
-<div class="person1-info"> <!-- seda divi vabalt dubleerida teista jaoks kui on vaja rohkem infot näidata -->
+<div id="person1-info" class="person1-info">
     <div class="person-subcat">
         <label>Backstory</label>
-        <!-- muud asjad siia -->
+        <p>Here's some detailed backstory about this character...</p>
+        <button class="btn btn-primary" onclick="app.closeModal('person1-info')">Less Info</button>
     </div>
-
-    <button class="btn btn-primary" onclick="app.closeModal('person1-info')">Less Info</button>
 </div>
 
-<div class="application-result">
-    <!-- vastus siia -->
+<div id="application-result" class="application-result">
+    <div>
+        <!-- content gets inserted here by JavaScript -->
+    </div>
 </div>
 
 <script src="js/app.js"></script>
+<script src="js/textAdventure.js"></script>
 </body>
 </html>
