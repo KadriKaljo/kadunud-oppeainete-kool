@@ -28,4 +28,7 @@ Kätlin toimetab figmaga<br>
 
 <h1>Teine päev 02.10.25</h1>
 
-Vaatame kaugele me jõudnud oleme. Täiendame Figmat. Mäng. Mängu testimine. Rainis mängib mängu läbi. 
+Vaatame kaugele me jõudnud oleme. Täiendame Figmat. Mäng. Mängu testimine. Rainis mängib mängu läbi. Thor sätib koodi. Rainis hakkas ka koodiga tegelema. Kadri ja Kätlin toimetavad figmas. <br>
+
+![img_8120_720](https://github.com/user-attachments/assets/b2670aba-5aa0-4379-927a-46e41f7e515d)
+
