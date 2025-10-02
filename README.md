@@ -51,8 +51,8 @@ Viimased parandused.
 2. <br>
 
 <b>Hendrik:</b> <br>
-1. <br>
-2. <br>
+1. Ma pole varem dokumenteerinud, kohe alguses hakkasin tegelema. Sai meelde tuletada vanu teadmisi.<br>
+2. Enda rolliga olin rahul. Plaani panime kiiresti paika. Tiim oli tubli.<br>
 
 <b>Kätlin:</b> <br>
 1. <br>
