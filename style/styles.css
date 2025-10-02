@@ -138,6 +138,10 @@ main {
 
 }
 
+main h1 {
+    font-size: 4rem;
+}
+
 main h2 {
     font-size: 2rem;
     color: #D4B896;
