@@ -27,3 +27,5 @@ Hendrik dokumenteerib, joonistas tahvli peale plaani, logo<br>
 Kätlin toimetab figmaga<br>
 
 <h1>Teine päev 02.10.25</h1>
+
+Vaatame kaugele me jõudnud oleme. Täiendame Figmat. Mäng. Mängu testimine. Rainis mängib mängu läbi. 
