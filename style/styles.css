@@ -119,7 +119,7 @@ section {
     margin-top: 100px;
     background-color: transparent;
     position: relative;
-    color: white;
+    color: #F5F1E8;
     text-align: right;
     font-family: 'Petrona', serif;
     font-size: x-large;
@@ -133,7 +133,7 @@ main {
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100%;
-    color: white;
+    color: #F5F1E8;
     font-family: "petrona", serif;
 
 }
@@ -153,7 +153,7 @@ main .people {
 }
 
 .secondary button {
-  background: #D4B896;
+  background: #F5F1E8;
   color: black;
   border: #D4B896;
   border-radius: 6px;
@@ -169,25 +169,40 @@ main .people {
     right: 0;
 }
 .map {
-    color: white;
+    color: #F5F1E8;
     background-color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: right;
+    align-items: flex-end;
     font-family: 'Petrona', serif;
 }
 
-.map h2, .map p {
+.map h2 {
+    font-size: 3rem;
     align-items: right;
+
+}
+
+.map-img {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.map p {
+    align-items: right;
+    font-size: 1.5rem;
+    color: #F5F1E8;
+
 }
 
 .map-img img {
-    width: 500px;
-    height: 500px;
+    width: 750px;
+    height: 750px;
     border: 2px solid #D4B896;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    align-items: center;
 }
 
 
@@ -242,7 +257,7 @@ footer span {
   background: #88745a;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-  padding: 1.5rem;
+  padding: 1rem;
   margin-bottom: 1.5rem;
   border: 1px solid #D4B896;
   font-family: "Petrona", Serif;
