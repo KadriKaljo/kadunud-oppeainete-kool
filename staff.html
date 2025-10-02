@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>The Staff Archives</title>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">
+        <img src="img/logo.png"> <!-- logo pilt panna siia -->
+    </div>
+    <div class="sections">
+        <!-- navigatsioon uudisteni jne siia -->
+        <ul class="nav-links">
+            <li class="nav-link"><a href="index.html" onclick="app.showSection('all')">Home</a></li>
+            <li class="nav-link"><a href="index.html" onclick="app.showSection('description')">About</a></li>
+            <li class="nav-link"><a href="index.html" onclick="app.showSection('news')">News</a></li>
+            <li class="nav-link"><a href="#">Staff Archives</a></li>
+            <li class="nav-link"><a href="index.html" onclick="app.showSection('map')">Map</a></li>
+            <li class="nav-link"><a href="#" onclick="startTextAdventure()">Explore</a></li>
+            <!-- muud navigation lingid siia -->
+        </ul>
+    </div>
+</nav>
+
+<main class="content"style="background-image: url(img/home.png);background-repeat: no-repeat;background-size: auto;">
+    <h2>The Staff Archives</h2>
+    <p>Those who teach what should not be remembered...</p>
+    <div class="people">
+    <div class="person">
+        <!-- tegelane1 -->
+        <!-- tegelastele anda pilt, nimi, kirjeldus, töökoha nimi jne -->
+        <img src="img/person1.png" class="person-img"> <!-- foto -->
+        <h3>Professor Morpheus Liddell</h3> <!-- nimi -->
+        <p>Claims to walk through student's dreams at night. Always knows what you dreamt, even if you don't.</p> <!-- description -->
+        <span>Dream Interpretation</span> <!-- class teaching -->
+
+        <!-- features -->
+        <p>Keeps an hourglass filled with sand that flows upward; whispers lecture notes into sleeping ears.</p>
+        <p>Once marked a student "Absent" before they even skipped class.</p>
+    </div>
+    <div class="person">
+        <!-- tegelane2 -->
+        <!-- tegelastele anda pilt, nimi, kirjeldus, töökoha nimi jne -->
+        <img src="img/person2.png" class="person-img"> <!-- foto -->
+        <h3>Dr. Lyra Kepler</h3> <!-- nimi -->
+        <p>Studies cosmic dust and swears each particle contains a memory of someone long gone.</p> <!-- description -->
+        <span>Stardust Physics</span> <!-- class teaching -->
+
+        <!-- features -->
+        <p>Talks to the Van de Graaff globe in a language no one understands.</p>
+        <p>Students report hearing their own voices answer her questions... even when they stayed silent.</p>
+    </div>
+    <div class="person">
+        <!-- tegelane3 -->
+        <!-- tegelastele anda pilt, nimi, kirjeldus, töökoha nimi jne -->
+        <img src="img/person3.png" class="person-img"> <!-- foto -->
+        <h3>Curator Tinker</h3> <!-- nimi -->
+        <p>Oversees inventions that were never finished... yet they twitch on shelves as if waiting.</p> <!-- description -->
+        <span>Abyss of Oblivion</span> <!-- class teaching -->
+
+        <!-- features -->
+        <p>Wears nine ticking watches that are never in sync; his pockets jingle with pieces of machines that no longer exist.</p>
+        <p>If he stares long enough, abandoned projects begin to whisper how they were supposed to end.</p>
+    </div>
+    <div class="person">
+        <!-- tegelane4 -->
+        <!-- tegelastele anda pilt, nimi, kirjeldus, töökoha nimi jne -->
+        <img src="img/person4.png" class="person-img"> <!-- foto -->
+        <h3>The Archivist</h3> <!-- nimi -->
+        <p>Appears only to those who pass the quiz. Their face is always blurred, like an unread line.</p> <!-- description -->
+        <span>Hidden Basement - The Unremembered Syllabus</span> <!-- class teaching -->
+
+        <!-- features -->
+        <p>Speaks in citations, pages turning untouched; words vanish as soon as heard.</p>
+        <p>Some say the archivist is a window's reflection; others, that the reflection speaks first.</p>
+    </div>
+    </div>
+</main>
+
+<footer> <!-- todo: styling -->
+    <div class="left">
+        <h3>The School of Forgotten Subjects</h3>
+        <p>A place hidden between memory and myth.</p>
+        <p>Where lessons no longer taught still echo in the halls.</p>
+    </div>
+    <div class="center">
+        <h3>Archives</h3>
+        <span>Echos & Notice</span>
+        <span>Campus of Lost Subjects</span>
+        <span>The Staff Archives</span>
+        <span onclick="startTextAdventure()">Adventure</span>
+        <!--<ul>
+            <li><a href="#">Echos & Notice</a></li>
+            <li><a href="#">Campus of Lost Subjects</a></li>
+            <li><a href="#">The Staff Archives</a></li>
+            <li><a href="#" onclick="startTextAdventure()">Explore</a></li>
+        </ul>-->
+    </div>
+    <div class="right">
+        <p style="color: #D4B896;">✦ Whispered rumor:</p>
+        <p style="color: #D4B896;">"If your read this line aloud, the lights in the library flicker."</p>
+        <p>©1423-2025 The School of Forgotten Subjects</p> <!-- trademark -->
+        <p>Time is unreliable. Dates may be incorrect.</p>
+    </div>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/textAdventure.js"></script>
+
+</body>
+</html>
