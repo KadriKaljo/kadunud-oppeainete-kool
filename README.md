@@ -32,7 +32,7 @@ Vaatame kaugele me jõudnud oleme. Täiendame Figmat. Mäng. Mängu testimine. R
 
 ![img_8120_720](https://github.com/user-attachments/assets/b2670aba-5aa0-4379-927a-46e41f7e515d)
 
-<h1>Kolmas päev 08.11.24</h1> <br>
+<h1>Kolmas päev 08.10.24</h1> <br>
 Viimased parandused.
 <h2>Tagasiside</h2>
 1.Mida õppisin ja endas arendasin? <br>
@@ -58,3 +58,5 @@ Viimased parandused.
 1. <br>
 2. <br>
 
+<h1>Kokkuvõte</h1>
+<p>Meie tiim töötas sujuvalt ja igaühel oli selge roll. Ideed kujunesid kiiresti terviklikuks plaaniks ning valmis sai Kadunud Õppeainete Kooli prototüüp koos kujunduse, tegelaste ja interaktiivse osaga. Kui aega oleks olnud rohkem, oleks saanud detaile veelgi lihvida.</p>
