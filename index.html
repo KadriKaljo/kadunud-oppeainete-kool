@@ -12,96 +12,75 @@
 
 <nav class="navbar">
     <div class="logo">
-        <img src="img/logo.jpg"> <!-- logo pilt panna siia -->
+        <img src="img/logo.png"> <!-- logo pilt panna siia -->
     </div>
     <div class="sections">
         <!-- navigatsioon uudisteni jne siia -->
         <ul class="nav-links">
-            <li class="nav-link"><a href="#" onclick="app.showSection('all')">Home</a></li>
-            <li class="nav-link"><a href="#" onclick="app.showSection('description')">About</a></li>
-            <li class="nav-link"><a href="#" onclick="app.showSection('news')">News</a></li>
+            <li class="nav-link"><a href="#top">Home</a></li>
+            <li class="nav-link"><a href="#description">About</a></li>
+            <li class="nav-link"><a href="#news">News</a></li>
             <li class="nav-link"><a href="staff.html">Staff Archives</a></li>
-            <li class="nav-link"><a href="#" onclick="app.showSection('map')">Map</a></li>
-            <li class="nav-link"><a href="#" onclick="app.showSection('application')">Apply</a></li>
+            <li class="nav-link"><a href="#map">Map</a></li>
             <li class="nav-link"><a href="#" onclick="startTextAdventure()">Explore</a></li>
             <!-- muud navigation lingid siia -->
         </ul>
     </div>
 </nav>
 
-<main style="background-image: url(img/home.png);">
-    <section class="description" style="text-align: right;">
+<main id="top">
+    <section id="description" class="description" style="text-align: right;">
         <div class="main">
             <!-- siia sisse tuleb kirjeldus jne-->
             <h1>The School of Forgotten Subjects</h1>
-            <p>- a place hidden between memory and oblivion</p>
+            <p><i>- a place hidden between memory and oblivion</i></p>
         </div>
         <div class="secondary">
-            <button>The Staff Archives</button>
-            <button>Explore</button>
+            <button onclick="window.location.href='staff.html'">The Staff Archives</button>
+            <button onclick="startTextAdventure()">Explore</button>
         </div>
     </section>
-    <section class="news">
-        <h2>Echoes & Notices</h2>
+    <section id="news" class="news">
+        <h2 class="news-title">Echoes & Notices</h2>
+        <div class="news-pieces">
         <div class="news-piece">
-            <h3>Cafeteria Special: Transparent Soup</h3>
-            <p>Yesterday's lunch featured "zero-calorie transparent soup". Students claim it tasted exactly like deadlines.</p>
+            <h2>Cafeteria Special: Transparent Soup</h2>
+            <p><i>Yesterday's lunch featured "zero-calorie transparent soup". Students claim it tasted exactly like deadlines.</i></p>
         </div>
         <div class="news-piece">
-            <h3>Chair on strike</h3>
-            <p>One chair in classroom 2 has refused to be sat on since Monday. Claims it is "on strike".</p>
+            <h2>Chair on strike</h2>
+            <p><i>One chair in classroom 2 has refused to be sat on since Monday. Claims it is "on strike".</i></p>
         </div>
         <div class="news-piece">
-            <h3>Timekeeping Problem</h3>
-            <p>The main hall clock has been stuck at 03:03 for three days. Administration says this is "still faster than our WI-FI".</p>
+            <h2>Timekeeping Problem</h2>
+            <p><i>The main hall clock has been stuck at 03:03 for three days. Administration says this is "still faster than our WI-FI".</i></p>
         </div>
         <div class="news-piece">
-            <h3>Strange Discovery in Cafeteria</h3>
-            <p>Today's omelette contained a fully working USB stick. IT department is checking for viruses before serving dessert.</p>
+            <h2>Strange Discovery in Cafeteria</h2>
+            <p><i>Today's omelette contained a fully working USB stick. IT department is checking for viruses before serving dessert.</i></p>
+        </div>
         </div>
         <!-- iga uue uudise jaoks panna siia uus div -->
     </section>
 
-    <section class="map">
+    <section id="map" class="map">
         <div class="map">
-            <h2>Map</h2>
-            <p>Have a look at our map to see where rooms are located</p>
+            <h2>Campus of Lost Subjects</h2>
+            <p><i>Have a look at our map to see where rooms are located</i></p>
         </div>
         <div class="map-img">
-            <img src="img/map.jpg">
+            <img src="img/map.png">
         </div>
-    </section>
-
-    <section class="application"> <!-- teha see hidden kuni leitud??? -->
-        <form class="application" onsubmit="app.handleApplication(event)">
-            <div class="application">
-                <label>Name</label>
-                <input type="text" name="name" class="application" placeholder="Enter your name" required>
-            </div>
-            <div class="application">
-                <label>Email</label>
-                <input type="email" name="email" class="application" placeholder="Enter your email" required>
-            </div>
-            <div class="application">
-                <label>Age</label>
-                <input type="number" name="age" class="application" placeholder="Enter your age" required>
-            </div>
-            <div class="application">
-                <label>About You</label>
-                <textarea name="about" class="application" placeholder="Tell us about you" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
     </section>
 </main>
 
-<footer> <!-- todo: styling -->
+<footer>
     <div class="left">
         <h3>The School of Forgotten Subjects</h3>
         <p>A place hidden between memory and myth.</p>
         <p>Where lessons no longer taught still echo in the halls.</p>
     </div>
-    <div class="middle">
+    <div class="middle" style="line-height: 20px;">
         <h3>Archives</h3>
         <span>Echos & Notice</span>
         <span>Campus of Lost Subjects</span>
@@ -115,18 +94,12 @@
         </ul>-->
     </div>
     <div class="right">
-        <p style="color: #D4B896;">✦ Whispered rumor:</p>
-        <p style="color: #D4B896;">"If your read this line aloud, the lights in the library flicker."</p>
+        <p style="color: #D4B896;"><i>✦ Whispered rumor:</i></p>
+        <p style="color: #D4B896;"><i>"If your read this line aloud, the lights in the library flicker."</i></p>
         <p>©1423-2025 The School of Forgotten Subjects</p> <!-- trademark -->
         <p>Time is unreliable. Dates may be incorrect.</p>
     </div>
 </footer>
-
-<div id="application-result" class="application-result">
-    <div>
-        <!-- content gets inserted here by JavaScript -->
-    </div>
-</div>
 
 <script src="js/app.js"></script>
 <script src="js/textAdventure.js"></script>

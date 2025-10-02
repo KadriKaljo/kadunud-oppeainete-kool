@@ -13,7 +13,7 @@ Figma -  [https://www.figma.com/design/sK47yGM6rhOIZnFSgpu2gT/Untitled?node-id=0
 Tiimi tutvustus. Mõtlesime välja mida võiks teha. Valituks sai Kadunud Õppeainete Kool. Edasi tegime plaani,milline leht välja peaks nägema ja mis seal olema peaks. Alustasime figmas lehe tegemisega. Tahvli peale sai kirja pandud jooksvad mõtted. Githubis repo ja Thor hakkas koodima. <br>
  <br>
 
-![20251001_140759](https://github.com/user-attachments/assets/7d73cca7-2e2b-4d69-8340-7bb47ddd8cf9) 
+![20251001_140759](https://github.com/user-attachments/assets/7d73cca7-2e2b-4d69-8340-7bb47ddd8cf9)
 
 ![20251001_140936_720](https://github.com/user-attachments/assets/9cb2f2a8-ac00-4710-9d53-ebac1b3e8433)
 
@@ -39,15 +39,15 @@ Viimased parandused.
 2.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas? <br> <br>
 
 <b>Thor:</b><br>
-1. <br>
-2. <br>
+1. Õppisin et võibolla ei ole alati parem üksi teha ja et string matching ei ole lõbus
+2. Enda rolliga rahul, järgmine kord võiks kasutada paremat keelt >:|
 
 <b>Rainis: </b><br>
 1. <br>
 2. <br>
 
 <b>Kadri:</b> <br>
-1. Sain kogemuse, kuidas meeskonnas ideid arendada ja siduda üheks terviklikuks looks. 
+1. Sain kogemuse, kuidas meeskonnas ideid arendada ja siduda üheks terviklikuks looks.
 2. Oleksin soovinud proovida ka tehnilist osa, et meenutada ja arendada oma tehnilisi oskusi. Aga kokkuvõttes väga hea tiimitöö!
 
 <b>Hendrik:</b> <br>
