@@ -48,7 +48,7 @@ Viimased parandused.
 
 <b>Kadri:</b> <br>
 1. Sain kogemuse, kuidas meeskonnas ideid arendada ja siduda üheks terviklikuks looks. 
-2. Oleksin soovinud proovida ka tehnilist osa, et meenutada ja arendada oma tehnilisi oskusi.
+2. Oleksin soovinud proovida ka tehnilist osa, et meenutada ja arendada oma tehnilisi oskusi. Aga kokkuvõttes väga hea tiimitöö!
 
 <b>Hendrik:</b> <br>
 1. Ma pole varem dokumenteerinud, kohe alguses hakkasin tegelema. Sai meelde tuletada vanu teadmisi.<br>
