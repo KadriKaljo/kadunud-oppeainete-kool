@@ -35,24 +35,26 @@ Vaatame kaugele me jõudnud oleme. Täiendame Figmat. Mäng. Mängu testimine. R
 <h1>Kolmas päev 08.11.24</h1> <br>
 Viimased parandused.
 <h2>Tagasiside</h2>
+1.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas? <br>
+2.Mida õppisin ja endas arendasin? <br> <br>
 
 <b>Thor:</b><br>
 1. <br>
 2. <br>
-3. <br>
+
 <b>Rainis: </b><br>
 1. <br>
 2. <br>
-3. <br> 
+
 <b>Kadri:</b> <br>
 1. <br>
 2. <br>
-3. <br>
+
 <b>Hendrik:</b> <br>
 1. <br>
 2. <br>
-3. <br>
+
 <b>Kätlin:</b> <br>
 1. <br>
 2. <br>
-3. <br>
+
