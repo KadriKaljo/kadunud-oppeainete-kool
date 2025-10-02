@@ -20,7 +20,7 @@
             <li class="nav-link"><a href="#" onclick="app.showSection('all')">Home</a></li>
             <li class="nav-link"><a href="#" onclick="app.showSection('description')">About</a></li>
             <li class="nav-link"><a href="#" onclick="app.showSection('news')">News</a></li>
-            <li class="nav-link"><a href="#" onclick="app.showSection('people')">People</a></li>
+            <li class="nav-link"><a href="staff.html">Staff Archives</a></li>
             <li class="nav-link"><a href="#" onclick="app.showSection('map')">Map</a></li>
             <li class="nav-link"><a href="#" onclick="app.showSection('application')">Apply</a></li>
             <li class="nav-link"><a href="#" onclick="startTextAdventure()">Explore</a></li>
@@ -60,25 +60,6 @@
             <p>Today's omelette contained a fully working USB stick. IT department is checking for viruses before serving dessert.</p>
         </div>
         <!-- iga uue uudise jaoks panna siia uus div -->
-    </section>
-    <section class="people">
-        <h2>Staff</h2>
-        <p>Meet our lovely teachers and other staff</p>
-        <div class="person">
-            <!-- tegelane1 -->
-            <!-- tegelastele anda pilt, nimi, kirjeldus, töökoha nimi jne -->
-            <h3>Name Character1</h3>
-            <img src="img/person1.png" class="person-img">
-            <p>Description Character1</p>
-            <!-- nupp kujundada paremini v panna mujale -->
-            <button class="btn-primary" onclick="app.loadModal('person1-info')">More Info</button>
-        </div>
-        <div class="person">
-            <!-- tegelane2 -->
-        </div>
-        <div class="person">
-            <!-- tegelane3 -->
-        </div>
     </section>
 
     <section class="map">
@@ -140,15 +121,6 @@
         <p>Time is unreliable. Dates may be incorrect.</p>
     </div>
 </footer>
-
-<!-- modalid mida renderida kindlal ajal -->
-<div id="person1-info" class="person1-info">
-    <div class="person-subcat">
-        <label>Backstory</label>
-        <p>Here's some detailed backstory about this character...</p>
-        <button class="btn btn-primary" onclick="app.closeModal('person1-info')">Less Info</button>
-    </div>
-</div>
 
 <div id="application-result" class="application-result">
     <div>
