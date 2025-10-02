@@ -162,7 +162,7 @@ class TextAdventure {
         const room = this.getCurrentRoom();
 
         if (!target) {
-            let description = `**${room.name}**\n\n${room.description}`;
+            let description = `${room.name}\n\n${room.description}`;
 
             if (room.items && room.items.length > 0) {
                 const visibleItems = room.items.filter(itemId => this.items[itemId]);
@@ -357,25 +357,25 @@ class TextAdventure {
     checkWinCondition() {
         if (this.inventory.includes('diploma') && this.inventory.includes('orb_of_knowledge')) {
             this.gameState.gameCompleted = true;
-            return "🎉 **CONGRATULATIONS!** 🎉\n\nYou have successfully graduated from the School of Forgotten Subjects! You possess both the Diploma of Forgotten Arts and the Orb of Infinite Knowledge. You are now a master of the forgotten arts!\n\nThe ancient magic flows through you as you step out into the world, ready to preserve and teach the knowledge that others have forgotten. Your adventure has come to a triumphant end!";
+            return " CONGRATULATIONS! \n\nYou have successfully graduated from the School of Forgotten Subjects! You possess both the Diploma of Forgotten Arts and the Orb of Infinite Knowledge. You are now a master of the forgotten arts!\n\nThe ancient magic flows through you as you step out into the world, ready to preserve and teach the knowledge that others have forgotten. Your adventure has come to a triumphant end!";
         }
         return null;
     }
 
     getHelp() {
-        return `**Available Commands:**
-• **look** - Examine your surroundings
-• **look [item]** - Examine a specific item
-• **go [direction]** - Move in a direction (north, south, east, west, up, down)
-• **take [item]** - Pick up an item
-• **use [item]** - Use an item
-• **talk [character]** - Speak with someone
-• **inventory** - Check what you're carrying
-• **help** - Show this help message
+        return `Available Commands:
+• look - Examine your surroundings
+• look [item] - Examine a specific item
+• go [direction] - Move in a direction (north, south, east, west, up, down)
+• take [item] - Pick up an item
+• use [item] - Use an item
+• talk [character] - Speak with someone
+• inventory - Check what you're carrying
+• help - Show this help message
 
-**Objective:** Explore the School of Forgotten Subjects, gather knowledge and items, and prove yourself worthy of graduation!
+Objective: Explore the School of Forgotten Subjects, gather knowledge and items, and prove yourself worthy of graduation!
 
-**Tips:**
+Tips:
 - Talk to everyone you meet - they often have valuable information
 - Some doors are locked and require keys
 - The ancient book is crucial for accessing the deepest secrets
