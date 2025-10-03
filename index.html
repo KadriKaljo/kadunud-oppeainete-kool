@@ -14,33 +14,33 @@
     <div class="logo">
         <img src="img/logo.png"> <!-- logo pilt panna siia -->
     </div>
-    
     <div class="sections">
         <!-- navigatsioon uudisteni jne siia -->
         <ul class="nav-links">
-            <li class="nav-link"><a href="#" onclick="app.showSection('all')">Home</a></li>
-            <li class="nav-link"><a href="#" onclick="app.showSection('news')">Notices</a></li>
-            <li class="nav-link"><a href="staff.html">Staff</a></li>
-            <li class="nav-link"><a href="#" onclick="app.showSection('map')">Campus</a></li>
+            <li class="nav-link"><a href="#top">Home</a></li>
+            <li class="nav-link"><a href="#description">About</a></li>
+            <li class="nav-link"><a href="#news">News</a></li>
+            <li class="nav-link"><a href="staff.html">Staff Archives</a></li>
+            <li class="nav-link"><a href="#map">Map</a></li>
             <li class="nav-link"><a href="#" onclick="startTextAdventure()">Explore</a></li>
             <!-- muud navigation lingid siia -->
         </ul>
     </div>
 </nav>
 
-<main >
-    <section class="description" style="text-align: right;">
+<main id="top">
+    <section id="description" class="description" style="text-align: right;">
         <div class="main">
             <!-- siia sisse tuleb kirjeldus jne-->
-            <h1>The School of <br> Forgotten Subjects</h1>
-            <p><i>is a place that drifts between memory and myth, <br> where abandoned knowledge continues to breathe in secret halls.</i></p>
+            <h1>The School of Forgotten Subjects</h1>
+            <p><i>- a place hidden between memory and oblivion</i></p>
         </div>
         <div class="secondary">
-            <button>The Staff Archives</button>
-            <button>Explore</button>
+            <button onclick="window.location.href='staff.html'">The Staff Archives</button>
+            <button onclick="startTextAdventure()">Explore</button>
         </div>
     </section>
-    <section class="news">
+    <section id="news" class="news">
         <h2 class="news-title">Echoes & Notices</h2>
         <div class="news-pieces">
         <div class="news-piece">
