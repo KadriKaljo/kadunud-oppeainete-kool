@@ -33,7 +33,7 @@ Vaatame kaugele me jõudnud oleme. Täiendame Figmat. Mäng. Mängu testimine. R
 ![img_8120_720](https://github.com/user-attachments/assets/b2670aba-5aa0-4379-927a-46e41f7e515d)
 
 <h1>Kolmas päev 08.10.24</h1> <br>
-Viimased parandused.
+Viimased parandused. Mobiilivaade.
 <h2>Tagasiside</h2>
 1.Mida õppisin ja endas arendasin? <br>
 2.Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas? <br> <br>
