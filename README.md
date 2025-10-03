@@ -1,5 +1,17 @@
 # Kadunud õppeainete kool
 
+See on väljamõeldud portaal, mis loodi 3-päevase meeskonnaprojekti käigus.  <br>
+See kujutab endast salapärast akadeemiat, kuhu koguneb unustatud teadmine – alates unenäotõlgendamisest kuni tähetolmufüüsika ja kadunud keelteni.<br>  
+
+Prototüüp sisaldab:  <br>
+- **Avaleht** – sissejuhatus kooli ja selle loo juurde  <br>
+- **Uudised ja teated** – humoorikad sündmused ja kaja kooli koridoridest  <br>
+- **Õpetajate arhiiv** – ekstsentriliste õpetajate profiilid ja saladused  <br>
+- **Koolikaart** – peidetud ruumide skeem <br> 
+- **Interaktiivne seiklus**   <br>
+
+Projekt valmis viieliikmelise meeskonna koostöös, ühendades loovuse, disaini ja tehnilise teostuse üheks tervikuks.<br>
+
 Liikmed: <br>
 Thorleif Erik Wiking Larsson <br>
 Rainis Toming <br>
