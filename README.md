@@ -57,8 +57,8 @@ Valmis said mobiilivaate kohandused ja lõplik sidumine tervikuks. <br>
 2. Enda rolliga rahul, järgmine kord võiks kasutada paremat keelt >:|
 
 <b>Rainis: </b><br>
-1. <br>
-2. <br>
+1. Õppisin cssi ja figma ja arendasin tiimitööd. <br>
+2. Jäin väga rahule oma ülesandega. <br>
 
 <b>Kadri:</b> <br>
 1. Sain kogemuse, kuidas meeskonnas ideid arendada ja siduda üheks terviklikuks looks. 
