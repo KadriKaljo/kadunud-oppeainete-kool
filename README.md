@@ -7,7 +7,8 @@ Kadri Kaljo <br>
 Hendrik Aksalu <br>
 Kätlin Epelbaum <br>
 
-Figma -  [https://www.figma.com/design/sK47yGM6rhOIZnFSgpu2gT/Untitled?node-id=0-1&node-type=canvas&t=AMQceGrlOt44uG5w-0](https://www.figma.com/design/vs66074OBWJlhSnF4wzV7y/Kadunud-%C3%95ppeainete-Kool?node-id=0-1&p=f&t=42GiH0qnC894hZbh-0)
+Figma -  [https://www.figma.com/design/sK47yGM6rhOIZnFSgpu2gT/Untitled?node-id=0-1&node-type=canvas&t=AMQceGrlOt44uG5w-0](https://www.figma.com/design/vs66074OBWJlhSnF4wzV7y/Kadunud-%C3%95ppeainete-Kool?node-id=0-1&p=f&t=42GiH0qnC894hZbh-0) <br>
+Live'i link - https://moonlit-raindrop-b89124.netlify.app/ <br>
 
 <h1>Esimene päev 01.10.25</h1>
 Tiimi tutvustus. Mõtlesime välja mida võiks teha. Valituks sai Kadunud Õppeainete Kool. Edasi tegime plaani,milline leht välja peaks nägema ja mis seal olema peaks. Alustasime figmas lehe tegemisega. Tahvli peale sai kirja pandud jooksvad mõtted. Githubis repo ja Thor hakkas koodima. <br>
