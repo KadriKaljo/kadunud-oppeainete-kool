@@ -1,6 +1,6 @@
 # Kadunud õppeainete kool
 
-See on väljamõeldud portaal, mis loodi 3-päevase meeskonnaprojekti käigus.  <br>
+See on väljamõeldud kool, mis loodi 3-päevase meeskonnaprojekti käigus.  <br>
 See kujutab endast salapärast akadeemiat, kuhu koguneb unustatud teadmine – alates unenäotõlgendamisest kuni tähetolmufüüsika ja kadunud keelteni.<br>  
 
 Prototüüp sisaldab:  <br>
