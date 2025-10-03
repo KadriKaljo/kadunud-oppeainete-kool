@@ -63,7 +63,7 @@
         <!-- iga uue uudise jaoks panna siia uus div -->
     </section>
 
-    <section class="map">
+    <section id="map" class="map">
         <div class="map">
             <h2>Campus of Lost Subjects</h2>
             <p><i>Have a look at our map to see where rooms are located</i></p>
@@ -74,7 +74,7 @@
     </section>
 </main>
 
-<footer> <!-- todo: styling -->
+<footer>
     <div class="left">
         <h3>The School of Forgotten Subjects</h3>
         <p>A place hidden between memory and myth.</p>
@@ -100,21 +100,6 @@
         <p>Time is unreliable. Dates may be incorrect.</p>
     </div>
 </footer>
-
-<!-- modalid mida renderida kindlal ajal -->
-<div id="person1-info" class="person1-info">
-    <div class="person-subcat">
-        <label>Backstory</label>
-        <p>Here's some detailed backstory about this character...</p>
-        <button class="btn btn-primary" onclick="app.closeModal('person1-info')">Less Info</button>
-    </div>
-</div>
-
-<div id="application-result" class="application-result">
-    <div>
-        <!-- content gets inserted here by JavaScript -->
-    </div>
-</div>
 
 <script src="js/app.js"></script>
 <script src="js/textAdventure.js"></script>

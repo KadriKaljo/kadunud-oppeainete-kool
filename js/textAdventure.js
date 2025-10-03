@@ -160,9 +160,8 @@ class TextAdventure {
 
     look(target = null) {
         const room = this.getCurrentRoom();
-
         if (!target) {
-            let description = `**${room.name}**\n\n${room.description}`;
+            let description = `${room.name}\n\n${room.description}`;
 
             if (room.items && room.items.length > 0) {
                 const visibleItems = room.items.filter(itemId => this.items[itemId]);
@@ -256,6 +255,7 @@ class TextAdventure {
             return "You use the rusty key. You hear a distant click - something has been unlocked.";
         }
 
+        //todo: fix this: keskööl koodimine ei ole kena (itemId ei saa olla kaks asja korraga)
         if (itemId === 'potion_ingredients' && itemId === 'crystal_vial' && this.currentRoom === 'alchemy_class') {
             this.gameState.potionMixed = true;
             return "You mix the potion ingredients in the crystal vial. The mixture glows with magical energy!";
@@ -281,6 +281,8 @@ class TextAdventure {
             case 'guard':
                 return "The guard nods solemnly. 'Welcome to the School of Forgotten Subjects, young one. Seek knowledge, but beware the dangers that lie within.'";
 
+            case 'ghost':
+            case 'student':
             case 'ghost_student':
                 return "The ghostly student whispers: 'I've been here for centuries, still trying to pass my final exam. The library holds many secrets...'";
 
@@ -291,9 +293,13 @@ class TextAdventure {
                     return "The librarian smiles knowingly. 'The book will serve you well. Knowledge is power, young scholar.'";
                 }
 
+            case 'professor':
+            case 'mysterium':
             case 'professor_mysterium':
                 return "Professor Mysterium adjusts his pointed hat. 'Ah, an alchemist in training! Mix the ingredients carefully - one wrong move and... well, let's just say we've lost students before.'";
 
+            case 'star':
+            case 'keeper':
             case 'star_keeper':
                 return "The Star Keeper gazes through a telescope. 'The stars tell of great destiny. Your path leads to the deepest secrets of this school.'";
 
@@ -304,6 +310,8 @@ class TextAdventure {
                     return "The Headmaster regards you seriously. 'You seek audience with me? First, prove your worth by finding the Book of Forgotten Lore.'";
                 }
 
+            case 'ancient':
+            case 'dragon':
             case 'ancient_dragon':
                 if (!this.gameState.dragonTalked) {
                     this.gameState.dragonTalked = true;
@@ -357,25 +365,25 @@ class TextAdventure {
     checkWinCondition() {
         if (this.inventory.includes('diploma') && this.inventory.includes('orb_of_knowledge')) {
             this.gameState.gameCompleted = true;
-            return "🎉 **CONGRATULATIONS!** 🎉\n\nYou have successfully graduated from the School of Forgotten Subjects! You possess both the Diploma of Forgotten Arts and the Orb of Infinite Knowledge. You are now a master of the forgotten arts!\n\nThe ancient magic flows through you as you step out into the world, ready to preserve and teach the knowledge that others have forgotten. Your adventure has come to a triumphant end!";
+            return "🎉 CONGRATULATIONS! 🎉\n\nYou have successfully graduated from the School of Forgotten Subjects! You possess both the Diploma of Forgotten Arts and the Orb of Infinite Knowledge. You are now a master of the forgotten arts!\n\nThe ancient magic flows through you as you step out into the world, ready to preserve and teach the knowledge that others have forgotten. Your adventure has come to a triumphant end!";
         }
         return null;
     }
 
     getHelp() {
-        return `**Available Commands:**
-• **look** - Examine your surroundings
-• **look [item]** - Examine a specific item
-• **go [direction]** - Move in a direction (north, south, east, west, up, down)
-• **take [item]** - Pick up an item
-• **use [item]** - Use an item
-• **talk [character]** - Speak with someone
-• **inventory** - Check what you're carrying
-• **help** - Show this help message
+        return `Available Commands:
+• look - Examine your surroundings
+• look [item] - Examine a specific item
+• go [direction] - Move in a direction (north, south, east, west, up, down)
+• take [item] - Pick up an item
+• use [item] - Use an item
+• talk [character] - Speak with someone
+• inventory - Check what you're carrying
+• help - Show this help message
 
-**Objective:** Explore the School of Forgotten Subjects, gather knowledge and items, and prove yourself worthy of graduation!
+Objective: Explore the School of Forgotten Subjects, gather knowledge and items, and prove yourself worthy of graduation!
 
-**Tips:**
+Tips:
 - Talk to everyone you meet - they often have valuable information
 - Some doors are locked and require keys
 - The ancient book is crucial for accessing the deepest secrets
@@ -457,7 +465,7 @@ class AdventureInterface {
         gameContainer.className = 'text-adventure-container';
         gameContainer.innerHTML = `
             <div class="adventure-header">
-                <h2>🏰 School of Forgotten Subjects - Text Adventure 🏰</h2>
+                <h2>School of Forgotten Subjects - Text Adventure</h2>
                 <button class="adventure-close-btn" onclick="adventureGame.closeGame()">✕</button>
             </div>
             <div class="adventure-output" id="adventure-output"></div>
